@@ -21,7 +21,7 @@ Video capturing using webcam to capture the picture of the person who is inneed 
 Output:
 
 The Preprocessed image is fed to the model to classify the captured image into above mentioned categories using the saved model "model.h5".
-*********************************************************************************************************************************************************************************
+*******************************************************************************************************************************************************************************
 
 Files in Ticket Dispensation direcory.
 1. MobileNetV2_video_capture - Has the coding and output.
