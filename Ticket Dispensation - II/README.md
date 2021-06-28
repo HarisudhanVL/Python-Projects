@@ -10,7 +10,7 @@ In most parts of the world, tickets at the entry section in parks, tourist spots
 
 Objective:
 
-So this project introduces an approach to automatically distribute tickets to customers by face detection and classification. Dispensation is done by detecting the face of the people at the ticket counter and classifying them into above mentioned categories to issue tickets. Face detection and classification methods depend on certain features within the face. The machine learning algorithms used are, a pre-trained model caffe deep learning framework for face detection and MobileNetV2 for classification. The dataset has been manually collected, which has the images of people residing in different parts of Tamil Nadu, India under various age groups.
+So this project introduces an approach to automatically distribute tickets to customers by face detection and classification. Dispensation is done by detecting the face of the people at the ticket counter and classifying them into above mentioned categories to issue tickets. Face detection and classification methods depend on certain features within the face. The machine learning algorithms used are, a pre-trained model caffe deep learning framework(attached in the repository Ticket Dispensation -II) for face detection and MobileNetV2 for classification. The dataset has been manually collected, which has the images of people residing in different parts of Tamil Nadu, India under various age groups.
 
 The MovileNetV2 model in Ticket Dispensation - I is saved as "model.h5" file. Which is used for prediction on new data. Each time training the model takes long time. So save the model and just load it for prediction which is faster.
 
@@ -21,3 +21,5 @@ Video capturing using webcam to capture the picture of the person who is inneed 
 Output:
 
 The Preprocessed image is fed to the model to classify the captured image into above mentioned categories using the saved model "model.h5".
+
+"deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel are the caffe deep learning framework used for face detection from an image."
